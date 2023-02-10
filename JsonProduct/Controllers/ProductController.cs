@@ -4,6 +4,8 @@ namespace JsonProduct.Controllers
 {
     public class ProductController : Controller
     {
+
+        [HttpGet]
         public async Task<IActionResult> GetSingleProduct()
         {
             var u = "https://dummyjson.com/products/1";
